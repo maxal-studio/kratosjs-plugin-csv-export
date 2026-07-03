@@ -1,37 +1,45 @@
 {
-	"name": "@maxal_studio/kratosjs-plugin-csv-export",
-	"version": "1.0.0",
-	"description": "Adds CSV export to every table in a KratosJs panel",
-	"main": "./dist/server/index.js",
-	"types": "./dist/server/index.d.ts",
-	"sideEffects": false,
-	"exports": {
-		".": {
-			"types": "./dist/server/index.d.ts",
-			"default": "./dist/server/index.js"
-		},
-		"./package.json": "./package.json"
-	},
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "npm run clean && tsc -p tsconfig.server.json",
-		"clean": "rm -rf dist",
-		"test": "vitest run src"
-	},
-	"keywords": [
-		"kratosjs",
-		"kratosjs-plugin",
-		"csv",
-		"export"
-	],
-	"author": "MaxAl",
-	"license": "ISC",
-	"peerDependencies": {
-		"@maxal_studio/kratosjs": "^1.0.0"
-	},
-	"devDependencies": {
-		"typescript": "^5.9.3"
-	}
+  "name": "@maxal_studio/kratosjs-plugin-csv-export",
+  "version": "1.0.1",
+  "description": "Adds CSV export to every table in a KratosJs panel",
+  "main": "./dist/server/index.js",
+  "types": "./dist/server/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/server/index.d.ts",
+      "default": "./dist/server/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.server.json",
+    "clean": "rm -rf dist",
+    "test": "vitest run src"
+  },
+  "keywords": [
+    "kratosjs",
+    "kratosjs-plugin",
+    "csv",
+    "export"
+  ],
+  "author": "MaxAl",
+  "license": "ISC",
+  "peerDependencies": {
+    "@maxal_studio/kratosjs": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maxal-studio/kratosjs-plugin-csv-export.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxal-studio/kratosjs-plugin-csv-export/issues"
+  },
+  "homepage": "https://github.com/maxal-studio/kratosjs-plugin-csv-export#readme"
 }
