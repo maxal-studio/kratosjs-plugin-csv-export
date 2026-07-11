@@ -29,7 +29,7 @@
   "author": "MaxAl",
   "license": "ISC",
   "peerDependencies": {
-    "@maxal_studio/kratosjs": "^1.0.0"
+    "@maxal_studio/kratosjs": "^2.0.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
