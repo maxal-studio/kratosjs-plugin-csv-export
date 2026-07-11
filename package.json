@@ -1,6 +1,6 @@
 {
   "name": "@maxal_studio/kratosjs-plugin-csv-export",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Adds CSV export to every table in a KratosJs panel",
   "main": "./dist/server/index.js",
   "types": "./dist/server/index.d.ts",
